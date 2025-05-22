@@ -64,11 +64,6 @@ body {
     font-weight: 600;
 }
 
-.divider {
-    border: 1px solid #2938;
-    top:-14px;
-}
-
 h2 {
     color: #003087;
     font-size: 24px;
@@ -77,6 +72,21 @@ h2 {
 
 .form-group {
     margin-bottom: 20px;
+}
+
+.cards-images {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    height: 46px;
+    gap:10px;
+}
+
+.card-image {
+    /* width: 50px;
+    height: 20px; */
+    width: 200px;
+    height: auto;
 }
 
 label {
